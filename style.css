@@ -16,3 +16,13 @@ main {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 3rem;
 }
+
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-size: 1rem;
+  font-weight: normal;
+}

@@ -774,8 +774,10 @@ function showSuperhero(superhero) {
   clone.querySelector("h2").textContent = superhero.id;
   clone.querySelector("img").src = superhero.image;
   clone.querySelector("h3").textContent = superhero.mission;
-  clone.querySelector(".outfit").textContent = superhero.outfit;
-  clone.querySelector(".cape").textContent = superhero.cape;
+  clone.querySelector(
+    ".outfit"
+  ).textContent = `This superhero is wearing ${superhero.outfit}`;
+  clone.querySelector(".cape").textContent = `Cape: ${superhero.cape}`;
   clone.querySelector("h4").textContent = superhero.powers;
   clone.querySelector("h5").textContent = superhero.weaknesses;
   clone.querySelector("h6").textContent = superhero.enemies;
