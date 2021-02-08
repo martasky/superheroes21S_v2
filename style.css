@@ -6,3 +6,13 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+article {
+  background-color: rgb(211, 198, 198);
+  padding: 1rem;
+}
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 3rem;
+}
